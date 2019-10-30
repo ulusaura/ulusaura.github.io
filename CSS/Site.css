@@ -1,0 +1,91 @@
+﻿body {
+    padding-bottom: 10px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+img {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+p.rockin {
+    text-align: center;
+    margin: 0 15px 0 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: middle;
+}
+
+
+ul {
+    font-family: 'Times New Roman';
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    position: relative;
+}
+
+p.about {
+    text-align: center;
+    margin: 0 15px 0 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a:active,
+a:focus {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #6E81EA;
+}
+
+a:hover, a:focus {
+    color: #ea4c88;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: small;
+}
+
+.main-logo {
+    padding-top: 20px;
+}
+
+.command-bar {
+	padding-right: 15px;
+}
+
+.sound-cloud {
+	padding-left: 25px;
+	padding-right: 25px;
+}
